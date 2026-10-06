@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import { Footer } from "./components/Footer/Footer";
-import { Header } from "./components/Header/Header";
-import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
-import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetailContainer";
+import { Header } from "./components/Header/Header.jsx";
+import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer.jsx";
+import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetailContainer.jsx";
+import { Footer } from "./components/Footer/Footer.jsx";
 
 function App() {
   return (

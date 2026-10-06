@@ -1,0 +1,68 @@
+/* src/components/Footer/footer.css */
+
+footer {
+  margin-top: auto; /* Mantiene el footer siempre abajo */
+  background: linear-gradient(to right, var(--bg), var(--surface)); /* Gradiente sutil */
+  border-top: 2px solid var(--border); 
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.15); /* Sombra superior para darle profundidad */
+}
+
+footer p {
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+}
+
+footer .nav-list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  color: var(--text-secondary);
+  font-weight: 600;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  position: relative; 
+}
+
+/* Efecto hover moderno: cambia color y se eleva un poco */
+footer li:hover {
+  color: var(--primary);
+  transform: translateY(-2px);
+}
+
+/* Línea animada debajo del enlace al pasar el mouse */
+footer li::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: var(--primary);
+  transition: width 0.3s ease;
+}
+
+footer li:hover::after {
+  width: 100%;
+}
+
+/* Adaptación para pantallas pequeñas (celulares) */
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+    padding: 2rem 1.5rem;
+    text-align: center;
+  }
+}

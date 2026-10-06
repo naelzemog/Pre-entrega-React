@@ -1,0 +1,20 @@
+.item-list-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  min-height: 65vh;
+}
+
+.item-list-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--text); /* 👈 Ajustado a la variable global */
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+
+.loading-text {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--text-secondary); /* 👈 Ajustado a la variable global */
+}

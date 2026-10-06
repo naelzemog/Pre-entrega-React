@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Teclado Mecánico RGB",
+    "price": 45000,
+    "category": "perifericos",
+    "image": "/img/Wooting-60HE-v2-04.jpg",
+    "description": "Teclado mecánico con switches red y retroiluminación RGB."
+  },
+  {
+    "id": 2,
+    "name": "Mouse Gamer Óptico",
+    "price": 28000,
+    "category": "perifericos",
+    "image": "/img/MOUSE-RAZER.jpg",
+    "description": "Mouse ergonómico con sensor óptico de alta precisión."
+  },
+  {
+    "id": 3,
+    "name": "Monitor 144Hz IPS",
+    "price": 220000,
+    "category": "monitores",
+    "image": "/img/MONITOR-ZOWIE.jpg",
+    "description": "Monitor para gaming de 24 pulgadas con panel IPS y 144Hz."
+  }
+]

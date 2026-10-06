@@ -1,6 +1,6 @@
-import { Item } from "../Item/Item";
 import { Link } from "react-router-dom";
-import "./ItemList.css";
+import "./itemlist.css";
+import { Item } from "../item/item.jsx";
 
 export const ItemList = ({ products }) => {
   if (!products.length) {

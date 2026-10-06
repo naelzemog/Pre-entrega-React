@@ -1,6 +1,6 @@
 import { Item } from "../Item/Item";
 import { useCart } from "../../context/CartContext";
-import "./ItemDetail.css";
+import "./itemdetail.css";
 
 export const ItemDetail = ({ item }) => {
   const { addItem } = useCart();
